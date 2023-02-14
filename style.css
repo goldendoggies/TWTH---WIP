@@ -1,0 +1,42 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+
+  background:lightblue
+  padding: 16px;
+  border: 4px;
+  gap:8px;
+  display:flex;
+}
+
+.item{
+  background:peachpuff;
+  padding: 16px;
+  border: 4px; solid salmon;
+  gap:8px;
+  height: 50px;
+  flex: 1;
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu-container {
+  color: #fff;
+  background-color: #5995DA;  /* Blue */
+  padding: 20px 0;
+  display: flex;
+  justify-content: flex-start;    /* Add this */
+}
+
+.menu {
+  border: 1px solid #fff;  /* For debugging */
+  width: 900px;
+}
